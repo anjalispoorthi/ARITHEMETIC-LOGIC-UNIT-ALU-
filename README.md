@@ -21,6 +21,11 @@ The ALU is a crucial component in any central processing unit (CPU), responsible
 Project Structure and File Descriptions
 alu.v: This Verilog file contains the core implementation of the ALU. It defines the inputs, outputs, and internal logic of the ALU, including the combinational logic for each supported operation. The design utilizes a case statement to select the appropriate operation based on the select input.
 alu_tb.v: This Verilog testbench file is used to simulate the alu.v module. It generates a series of test vectors, applies them to the ALU inputs, and compares the ALU outputs with the expected results. The testbench provides comprehensive coverage of all supported operations, ensuring the ALU's functionality is thoroughly validated.
+
+#OUTPUT#
+
+<img width="1203" height="565" alt="image" src="https://github.com/user-attachments/assets/68de5531-9457-4d8f-93f8-a01a8cf9a667" />
+
 Note: Both alu.v and alu_tb.v are located in the same directory for ease of access and project management.
 README.md: This file serves as the project documentation, providing an overview of the project, implementation details, simulation instructions, and other relevant information.
 Modelsim_Project/: (Optional) This directory may contain Modelsim project files, including waveform configuration files and project settings, which facilitate the simulation process.
